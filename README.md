@@ -1,2 +1,6 @@
 # Text-Mining-Project
 This project is about email classification of spam and ham (not spam). it classifies an SMS into one of a binary class as either spam or inbox. All methologies used in the project are customized. 
+### About
+Email are part of our everydat life. Personally computer users use emails to communicate with friends, families, e-businesses and colleagues allowing ease of communication. Email serve as an archival tool to some people nad and is also widely used to synchronize real time communication. However, This project aims at developing a machine learning model that allows a classifier to extract information of most frequent and most common words in email messages in order to classify messages into relevant or irrelevant, spam or ham.
+### Methology
+The methods for achieveing this takes two approach. First is finding through research all the kinds of spam trigger words, damngoodwriter.com provides nearly half a thousand spam trigger words. With the use of Python Selenium framework, I have scraped all these words and saved them in a single file. uci.edu provides an sms dataset of over 5000 records, I collected this data as it will be used for training and testing the models for this project. to be continued...details of project explanation and interpretation will be available at #link
