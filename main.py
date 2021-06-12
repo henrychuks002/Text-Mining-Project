@@ -62,6 +62,7 @@ with dataset:
              understands. Machine learning models don't understand the English language. They work with only numbers. 
              ''')
     dataset = pd.read_csv('train_data.csv')
+    dataset = dataset.loc[:, ~dataset.columns.str.contains('^Unnamed')]
     st.write(dataset.head())
     
 with model_testing:
